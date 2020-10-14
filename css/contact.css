@@ -1,0 +1,9 @@
+body {
+  background-color: #f9f5ef;
+}
+
+@media only screen and (max-width: 600px) {
+  .mother {
+    margin-top: -200px;
+  }
+}

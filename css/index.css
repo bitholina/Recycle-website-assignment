@@ -1,0 +1,32 @@
+body {
+  background-image: url(../images/front1.jpg);
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: white;
+  padding: 25px 30px;
+  border: 2px solid #c6bba3;
+}
+
+input {
+  background-color: #31bd36;
+  border: none;
+  color: white;
+  padding: 26px 62px;
+  text-align: center;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: #228525;
+}
+
+footer {
+  background-color: #181716;
+}

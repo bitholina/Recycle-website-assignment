@@ -1,0 +1,33 @@
+.container {
+  grid-template-areas:
+    "h h n n n n n n n n n n"
+    "a a a c c c c c c c c c"
+    "f f f f f f f f f f f f";
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tours {
+  background-color: pink;
+  display: flex;
+}
+
+.scandinavian,
+.local,
+.sculpture,
+.historical {
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid #c6bba3;
+}
+
+.tours-image {
+  width: 100%;
+}

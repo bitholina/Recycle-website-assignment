@@ -1,0 +1,43 @@
+body {
+  background-color: #f9f5ef;
+}
+
+.mother {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.child {
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  width: 300px;
+  margin: 20px;
+  border: 2px solid #c6bba3;
+}
+
+.tours-image {
+  width: 100%;
+}
+
+input {
+  background-color: #31bd36;
+  border: none;
+  color: white;
+  padding: 14px 82px;
+  text-align: center;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+input:hover {
+  background-color: #228525;
+}
+
+@media only screen and (max-width: 600px) {
+  .mother {
+    flex-direction: column;
+    margin-top: -200px;
+  }
+}

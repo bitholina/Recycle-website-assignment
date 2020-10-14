@@ -1,0 +1,10 @@
+body {
+  background-color: #f9f5ef;
+}
+
+@media only screen and (max-width: 600px) {
+  .mother {
+    flex-direction: column;
+    margin-top: -200px;
+  }
+}
